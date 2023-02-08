@@ -3,9 +3,11 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="py-5 mx-auto max-w-screen-lg w-full text-center text-primary border-t border-primary">
-      <p className="font-bold">Koshiro’s_Portfolio</p>
-      <small>&copy; 2023 Koshiro Iino</small>
+    <footer className="mx-auto px-4 lg:max-w-screen-md xl:max-w-screen-lg w-full text-center text-primary">
+      <div className="py-5 border-t border-primary">
+        <p className="font-bold">Koshiro’s_Portfolio</p>
+        <small>&copy; 2023 Koshiro Iino</small>
+      </div>
     </footer>
   )
 }

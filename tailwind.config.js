@@ -23,7 +23,9 @@ module.exports = {
         "primary": "#6200EA"
       },
       screens: {
-        'lg': '960px',
+        'xs': '498px',
+        'lg': '992px',
+        'xl': '1152px',
       },
       width: {
         "0.25": "0.0625rem",

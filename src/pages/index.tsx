@@ -9,7 +9,7 @@ export default function Home({ formattedDate } : { formattedDate: string }) {
     <>
       <div className="flex h-screen flex-col justify-between">
         <Header></Header>
-        <div className="flex">
+        <div className="flex h-full">
           <Sidebar></Sidebar>
           <Content></Content>
         </div>
