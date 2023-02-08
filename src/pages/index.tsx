@@ -1,3 +1,5 @@
+import Content from "@/components/Content";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Sidebar from "@/components/Sidebar";
 import Link from "next/link";
@@ -5,8 +7,14 @@ import Link from "next/link";
 export default function Home({ formattedDate } : { formattedDate: string }) {
   return (
     <>
-      <Header></Header>
-      <Sidebar></Sidebar>
+      <div className="flex h-screen flex-col justify-between">
+        <Header></Header>
+        <div className="flex">
+          <Sidebar></Sidebar>
+          <Content></Content>
+        </div>
+          <Footer></Footer>
+      </div>
     </>
   );
 }
