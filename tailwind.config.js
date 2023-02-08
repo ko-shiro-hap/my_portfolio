@@ -22,6 +22,9 @@ module.exports = {
       colors: {
         "primary": "#6200EA"
       },
+      screens: {
+        'lg': '960px',
+      },
       width: {
         "0.25": "0.0625rem",
       },
