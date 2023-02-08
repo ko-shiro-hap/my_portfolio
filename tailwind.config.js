@@ -20,7 +20,8 @@ module.exports = {
         ]
       },
       colors: {
-        "primary": "#6200EA"
+        "primary": "#6200EA",
+        "secondary": "#440BD4",
       },
       screens: {
         'xs': '498px',
@@ -31,8 +32,10 @@ module.exports = {
         "0.25": "0.0625rem",
       },
       spacing: {
+        "1/6": "17%",
         "25": "6.25rem",
-      }
+        "62": "15.5rem",
+      },
     },
   },
   plugins: [],
