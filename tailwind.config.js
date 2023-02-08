@@ -31,6 +31,9 @@ module.exports = {
       width: {
         "0.25": "0.0625rem",
       },
+      height: {
+        "105": "26.25rem",
+      },
       spacing: {
         "1/6": "17%",
         "25": "6.25rem",
