@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Sidebar = () => {
   return (
-    <aside className="relative pl-10 h-full">
+    <aside className="absolute pl-10 h-full">
       <div className="absolute right-1/4 h-full w-0.25 bg-primary"></div>
       <ul className="flex h-full flex-col justify-center">
         <div className="flex gap-10 py-10 flex-col justify-center bg-white z-10">

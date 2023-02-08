@@ -7,7 +7,20 @@ import Link from "next/link";
 export default function Home({ formattedDate } : { formattedDate: string }) {
   return (
     <>
-      <p>hello</p>
+      <section className="w-full">
+        <nav>
+          <Link href="">Profile</Link>
+          <Link href="">Experience</Link>
+          <Link href="">Portfolio</Link>
+          <Link href="">Contact</Link>
+        </nav>
+        <div className="text-right text-secondary">
+          <h2>Hello<br/>World</h2>
+          <p>My name is <span>Koshiro Iino</span>.
+          <br />
+          I offer the best value in my engineering.</p>
+        </div>
+      </section>
     </>
   );
 }

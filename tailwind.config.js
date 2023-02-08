@@ -20,7 +20,8 @@ module.exports = {
         ]
       },
       colors: {
-        "primary": "#6200EA"
+        "primary": "#6200EA",
+        "secondary": "#440BD4",
       },
       screens: {
         'xs': '498px',
