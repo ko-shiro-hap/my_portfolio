@@ -11,9 +11,11 @@ export const Layout = ({ children }: LayoutProps) => (
     <>
       <div className="flex h-screen flex-col justify-between">
         <Header></Header>
-        <div className="flex h-full">
+        <div className="relative flex h-full items-center">
           <Sidebar></Sidebar>
-          {children}
+          <main className='mx-auto px-4 pb-10 max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg w-full max-h-full overflow-auto'>
+            {children}
+          </main>
         </div>
           <Footer></Footer>
       </div>
