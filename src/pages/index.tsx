@@ -1,5 +1,4 @@
-// pages/index.js
-export default function Home({ formattedDate }: any) {
+export default function Home({ formattedDate } : { formattedDate: string }) {
   return (
     <>
       <h1>Static page</h1>
