@@ -1,13 +1,13 @@
+import Content from "@/components/Content";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import Sidebar from "@/components/Sidebar";
 import Link from "next/link";
 
 export default function Home({ formattedDate } : { formattedDate: string }) {
   return (
     <>
-      <h1>Static page</h1>
-      <p>This page is static. It was built on {formattedDate}.</p>
-      <p>
-        <Link href="/ssr">View a server-side rendered page.</Link>
-      </p>
+      <p>hello</p>
     </>
   );
 }
