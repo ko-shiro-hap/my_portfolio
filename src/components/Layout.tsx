@@ -13,7 +13,7 @@ export const Layout = ({ children }: LayoutProps) => (
         <Header></Header>
         <div className="relative flex h-full items-center">
           <Sidebar></Sidebar>
-          <main className='mx-auto px-4 pb-10 max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg w-full'>
+          <main className='mx-auto px-4 pb-10 max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg w-full max-h-full overflow-auto'>
             {children}
           </main>
         </div>
