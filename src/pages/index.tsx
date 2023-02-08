@@ -7,14 +7,7 @@ import Link from "next/link";
 export default function Home({ formattedDate } : { formattedDate: string }) {
   return (
     <>
-      <div className="flex h-screen flex-col justify-between">
-        <Header></Header>
-        <div className="flex h-full">
-          <Sidebar></Sidebar>
-          <Content></Content>
-        </div>
-          <Footer></Footer>
-      </div>
+      <p>hello</p>
     </>
   );
 }
