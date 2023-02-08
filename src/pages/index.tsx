@@ -14,9 +14,9 @@ export default function Home({ formattedDate } : { formattedDate: string }) {
           <Link href="">Portfolio</Link>
           <Link href="">Contact</Link>
         </nav>
-        <div className="text-right text-secondary">
-          <h2>Hello<br/>World</h2>
-          <p>My name is <span>Koshiro Iino</span>.
+        <div className="text-right text-secondary font-bold">
+          <h2 className="pb-10 text-8xl xl:text-9xl">HELLO<br/>WORLD</h2>
+          <p className="text-2xl sm:text-3xl md:text-4xl md:leading-relaxed">My name is <span className="text-4xl md:text-5xl text-stroke">Koshiro Iino</span>.
           <br />
           I offer the best value in my engineering.</p>
         </div>
