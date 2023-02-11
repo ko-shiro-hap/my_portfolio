@@ -1,6 +1,5 @@
 import VisualNav from "@/components/VisualNav";
 
-// export default function Home({ formattedDate } : { formattedDate: string }) {
 export default function Home() {
   return (
     <>
@@ -19,12 +18,3 @@ export default function Home() {
   );
 }
 
-// export async function getStaticProps() {
-//   const buildDate = Date.now();
-//   const formattedDate = new Intl.DateTimeFormat("en-US", {
-//     dateStyle: "long",
-//     timeStyle: "long",
-//   }).format(buildDate);
-
-//   return { props: { formattedDate } };
-// }

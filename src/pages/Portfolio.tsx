@@ -11,7 +11,7 @@ export default function Portfolio() {
         <div className="mx-auto px-4 pt-10 max-w-screen-sm xl:max-w-screen-md w-full">
           <div>
             <div className="relative w-full h-48 mx:h-64 sm:h-72 md:h-80 lg:h-96 xl:h-105 border border-primary transition-all hover:opacity-50">
-              <Link href="/">
+              <Link href="https://qiita.com/ko-shiro-hap/items/0ee1e929128ea39694af">
                 <Image src="/images/portfolio_site.png" fill alt="portfolio" className="w-full object-contain rounded"/>
               </Link>
             </div>
