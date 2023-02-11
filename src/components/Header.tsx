@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className="flex gap-2 px-4 md:px-10 py-8 w-screen justify-between items-end text-primary">
       <Link href="/">
-        <h1 className="text-2xl sm:text-3xl font-bold">Koshiro’s_Portfolio</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold text-stroke-reverse">Koshiro’s_Portfolio</h1>
       </Link>
       <ul className="md:hidden">
         <div className="flex gap-4 justify-center align-bottom">

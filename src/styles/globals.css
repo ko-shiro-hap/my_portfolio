@@ -4,3 +4,9 @@
   color: #ffffff;
   -webkit-text-stroke: 1.5px #6200EA;
 }
+
+.text-stroke-reverse:hover {
+  transition: all 0.2s;
+  color: #ffffff;
+  -webkit-text-stroke: 1.5px #6200EA;
+}
