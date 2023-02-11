@@ -32,6 +32,9 @@ const Header = () => {
       <nav className="hidden md:block">
         <ul className="flex gap-5 text-xl font-medium">
           <li>
+            <Link href="/" className="hover:underline">Home</Link>
+          </li>
+          <li>
             <Link href="/profile" className="hover:underline">Profile</Link>
           </li>
           <li>
