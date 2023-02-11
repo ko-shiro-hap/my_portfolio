@@ -1,7 +1,13 @@
+import VisualNav from "@/components/VisualNav";
+
 export default function Experience() {
   return (
     <>
       <section className="mx-auto px-4 pt-10 pb-8 lg:pt-0 max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg max-h-full w-full text-secondary">
+        <div className="flex md:absolute left-10 pb-10 md:pt-0 justify-center md:hidden">
+          <VisualNav></VisualNav>
+        </div>
+
         <h2 className="text-4xl font-bold">Experience</h2>
         <span className="text-lg font-bold">今までの経験</span>
 

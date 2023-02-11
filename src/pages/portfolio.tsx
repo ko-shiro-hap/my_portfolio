@@ -1,3 +1,4 @@
+import VisualNav from "@/components/VisualNav";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -5,6 +6,10 @@ export default function Portfolio() {
   return (
     <>
       <section className="mx-auto px-4 pt-10 lg:pt-0 max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg max-h-full w-full text-primary">
+        <div className="flex md:absolute left-10 pb-10 md:pt-0 justify-center md:hidden">
+          <VisualNav></VisualNav>
+        </div>
+
         <h2 className="text-4xl font-bold">Portfolio</h2>
         <span className="text-lg font-bold">制作物</span>
         {/* 制作物が増えたら繰り返す */}

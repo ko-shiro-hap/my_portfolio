@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <section className="relative w-full">
-        <div className="flex md:absolute left-10 pt-10 md:pt-0 justify-center">
+        <div className="flex md:absolute left-10 md:left-11 pt-10 md:pt-0 justify-center">
           <VisualNav></VisualNav>
         </div>
         <div className="mt-10 md:mt-0 text-center md:text-right text-secondary font-bold">

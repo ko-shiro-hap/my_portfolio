@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className="flex gap-2 px-4 md:px-10 py-8 w-screen justify-between items-end text-primary">
       <Link href="/">
-        <h1 className="text-2xl sm:text-3xl font-bold">Koshiro’s_Portfolio</h1>
+        <h1 className="text-2xl sm:text-3xl font-bold text-stroke-reverse">Koshiro’s_Portfolio</h1>
       </Link>
       <ul className="md:hidden">
         <div className="flex gap-4 justify-center align-bottom">
@@ -31,6 +31,9 @@ const Header = () => {
 
       <nav className="hidden md:block">
         <ul className="flex gap-5 text-xl font-medium">
+          <li>
+            <Link href="/" className="hover:underline">Home</Link>
+          </li>
           <li>
             <Link href="/profile" className="hover:underline">Profile</Link>
           </li>

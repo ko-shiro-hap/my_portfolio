@@ -2,6 +2,7 @@ import { ReactElement } from 'react'
 import Header from './Header'
 import Sidebar from './Sidebar'
 import Footer from './Footer'
+import TopButton from './TopButton'
 
 type LayoutProps = Required<{
   readonly children: ReactElement
@@ -19,5 +20,6 @@ export const Layout = ({ children }: LayoutProps) => (
         </div>
           <Footer></Footer>
       </div>
+      <TopButton></TopButton>
     </>
 )

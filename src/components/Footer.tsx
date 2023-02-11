@@ -1,6 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
-
 const Footer = () => {
   return (
     <footer className="mx-auto px-4 max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg w-full text-center text-primary">
