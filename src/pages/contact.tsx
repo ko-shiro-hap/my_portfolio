@@ -1,7 +1,12 @@
+import VisualNav from "@/components/VisualNav";
+
 export default function Contact() {
   return (
     <>
       <section className="mx-auto px-4 pt-10 lg:pt-0 max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg max-h-full w-full text-secondary text-center font-bold">
+        <div className="flex md:absolute left-10 pb-10 md:pt-0 justify-center md:hidden">
+          <VisualNav></VisualNav>
+        </div>
         <h2 className="text-4xl">Contact</h2>
         <span className="text-lg">お問い合わせ</span>
         <div className="flex pt-14 pb-5 justify-center items-center">
