@@ -9,7 +9,7 @@ export const getStaticProps = async () => {
 
   return {
     props: {
-      portfolio: data || null,
+      portfolio: data.contents || null,
     },
   };
 };
@@ -21,7 +21,6 @@ export default function Portfolio({portfolio}: any) {
         <div className="flex md:absolute left-10 pb-10 md:pt-0 justify-center md:hidden">
           <VisualNav></VisualNav>
         </div>
-        <p>{portfolio.description}</p>
 
         <h2 className="text-4xl font-bold">Portfolio</h2>
         <span className="text-lg font-bold">制作物</span>
@@ -30,11 +29,11 @@ export default function Portfolio({portfolio}: any) {
           <div>
             <div className="relative w-full h-48 mx:h-64 sm:h-72 md:h-80 lg:h-96 xl:h-105 border border-primary transition-all hover:opacity-50">
               <Link href="https://qiita.com/ko-shiro-hap/items/0ee1e929128ea39694af">
-                <Image src="/images/portfolio_site.png" fill alt="portfolio" className="w-full object-contain rounded"/>
+                <Image src={portfolio[0].image.url} fill alt="portfolio" className="w-full object-contain rounded"/>
               </Link>
             </div>
             <div className="flex gap-1 pt-3 justify-between items-start font-bold flex-col md:flex-row">
-              <h3 className="text-xl lg:text-2xl xl:text-3xl">Koshiro’s_Portfolio</h3>
+              <h3 className="text-xl lg:text-2xl xl:text-3xl">{portfolio[0].name}</h3>
               <div>
                 <h4 className="lg:text-xl">CATEGORY</h4>
                 <ul className="flex gap-1 text-sm text-white flex-wrap">
@@ -52,7 +51,7 @@ export default function Portfolio({portfolio}: any) {
                 </ul>
               </div>
             </div>
-              <Link href="https://qiita.com/ko-shiro-hap/items/0ee1e929128ea39694af">
+              <Link href={portfolio[0].qiita_url} target="_blank">
                 <div className="inline-flex mt-2 md:mt-0 py-1 items-end transition-all hover:underline">
                   <div className="mr-0.5 w-0.5 h-5 bg-primary"></div>
                   <div className="mr-1 w-0.25 h-4 bg-primary"></div>
