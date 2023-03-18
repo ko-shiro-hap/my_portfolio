@@ -1,14 +1,27 @@
 import VisualNav from "@/components/VisualNav";
 import Image from "next/image";
 import Link from "next/link";
+import { client } from "../../libs/client";
 
-export default function Portfolio() {
+// データをテンプレートに受け渡す部分の処理を記述します
+export const getStaticProps = async () => {
+  const data = await client.get({ endpoint: "portfolio" });
+
+  return {
+    props: {
+      portfolio: data || null,
+    },
+  };
+};
+
+export default function Portfolio({portfolio}: any) {
   return (
     <>
       <section className="mx-auto px-4 pt-10 lg:pt-0 max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg max-h-full w-full text-primary">
         <div className="flex md:absolute left-10 pb-10 md:pt-0 justify-center md:hidden">
           <VisualNav></VisualNav>
         </div>
+        <p>{portfolio.description}</p>
 
         <h2 className="text-4xl font-bold">Portfolio</h2>
         <span className="text-lg font-bold">制作物</span>
