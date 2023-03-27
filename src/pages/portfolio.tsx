@@ -37,7 +37,8 @@ export default function Portfolio({portfolios, categories, tags}: any) {
                     <Image src={portfolio.image.url} fill alt="portfolio" className="w-full object-contain rounded"/>
                   </Link>
                 </div>
-                <div className="flex gap-1 sm:gap-10 pt-3 items-start font-bold flex-col sm:flex-row">
+                <h3 className="sm:hidden mt-1 text-xl lg:text-2xl xl:text-3xl text-center font-bold">{portfolio.name}</h3>
+                <div className="hidden sm:flex gap-1 sm:gap-10 pt-3 items-start font-bold flex-col sm:flex-row">
                   <h3 className="text-xl lg:text-2xl xl:text-3xl">{portfolio.name}</h3>
                   <div>
                     <h4 className="lg:text-xl">CATEGORY</h4>
@@ -61,10 +62,10 @@ export default function Portfolio({portfolios, categories, tags}: any) {
                   </div>
                 </div>
                   <Link href={portfolio.qiita_url} target="_blank">
-                    <div className="inline-flex mt-2 md:mt-0 py-1 items-end transition-all hover:underline">
+                    <div className="flex md:mt-0 py-1 items-end transition-all hover:underline justify-center sm:justify-start">
                       <div className="mr-0.5 w-0.5 h-5 bg-primary"></div>
                       <div className="mr-1 w-0.25 h-4 bg-primary"></div>
-                      <p className="lg:text-xl font-bold leading-none lg:-mb-1">In More Detail</p>
+                      <p className="lg:text-xl sm:font-bold leading-none lg:-mb-1">In More Detail</p>
                     </div>
                   </Link>
               </div>
