@@ -1,5 +1,5 @@
 import VisualNav from "@/components/VisualNav";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 
 export default function Profile() {
   return (
@@ -13,7 +13,7 @@ export default function Profile() {
         <span className="text-lg font-bold">私について</span>
         <div className="flex gap-10 xl:gap-20 mx-auto px-4 pt-10 max-w-screen-sm xl:max-w-screen-md w-full flex-col xl:flex-row items-center text-center xl:text-left">
           <div className="relative w-full h-80 xl:w-64 xl:h-64">
-            <Image src="/images/profile.jpg" fill alt="profile" className="object-cover rounded xl:rounded-full"/>
+            <ExportedImage src="/images/profile.jpg" fill alt="profile" className="object-cover rounded xl:rounded-full"/>
           </div>
           <div>
             <h2 className="text-2xl font-bold leading-none">飯野 功志朗</h2>

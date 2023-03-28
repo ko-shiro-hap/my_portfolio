@@ -1,5 +1,5 @@
 import VisualNav from "@/components/VisualNav";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import Link from "next/link";
 import { client } from "../../libs/client";
 
@@ -34,7 +34,7 @@ export default function Portfolio({portfolios, categories, tags}: any) {
               <div className="mx-auto px-4 pt-4 pb-16 max-w-screen-sm xl:max-w-screen-md w-full" key={portfolio.id}>
                 <div className="relative w-full h-48 mx:h-64 sm:h-72 md:h-80 lg:h-96 xl:h-105 transition-all hover:opacity-50">
                   <Link href={portfolio.url} target="_blank">
-                    <Image src={portfolio.image.url} fill alt="portfolio" className="w-full object-contain rounded"/>
+                    <ExportedImage src={portfolio.image.url} fill alt="portfolio" className="w-full object-contain rounded"/>
                   </Link>
                 </div>
                 <h3 className="sm:hidden mt-1 text-xl lg:text-2xl xl:text-3xl text-center font-bold">{portfolio.name}</h3>
