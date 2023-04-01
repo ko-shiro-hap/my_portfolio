@@ -21,7 +21,7 @@ jobs:
         run: npm install
 
       - name: Build and Export App
-        run: npm run build && npm run export
+        run: next build && next export && next-image-export-optimizer
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
