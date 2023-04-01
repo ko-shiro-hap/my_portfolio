@@ -35,7 +35,7 @@ export default function Experience() {
           <div className="absolute bottom-0 -left-4 h-8 w-4 border border-r-0 border-primary rounded-l-full transform translate-y-0.25"></div>
           <div className="flex gap-10 items-center">
             <div className="pl-3 text-4xl font-bold">03</div>
-            <p className=" lg:text-xl font-bold">高校1年生で何かを悟り、本を読み漁る。</p>
+            <p className=" lg:text-xl font-bold">高校1年生で何かを悟り、様々な本を読み漁る。</p>
           </div>
         </div>
 
