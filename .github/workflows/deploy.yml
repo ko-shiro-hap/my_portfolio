@@ -19,6 +19,7 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        run: npm install next
 
       - name: Build and Export App
         run: next build && next export
