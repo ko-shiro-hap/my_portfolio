@@ -1,6 +1,9 @@
 name: Build and Deploy Next App
 
 on:
+  repository_dispatch:
+    types: [update_post]
+
   push:
     branches:
       - main
