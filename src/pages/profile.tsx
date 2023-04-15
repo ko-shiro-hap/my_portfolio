@@ -4,12 +4,12 @@ import ExportedImage from "next-image-export-optimizer";
 export default function Profile() {
   return (
     <>
-      <section className="mx-auto px-4 pt-10 lg:pt-0 max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg max-h-full w-full text-secondary">
-        <div className="flex md:absolute left-10 pb-10 md:pt-0 justify-center md:hidden">
+      <section className="mx-auto px-4 pt-24 pb-40 lg:pt-0 max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg max-h-full w-full text-secondary">
+        <div className="flex md:absolute left-10 pb-10 md:pt-24 justify-center md:hidden">
           <VisualNav></VisualNav>
         </div>
 
-        <h2 className="text-4xl font-bold">Profile</h2>
+        <h2 className="text-4xl font-bold md:pt-24">Profile</h2>
         <span className="text-lg font-bold">私について</span>
         <div className="flex gap-10 xl:gap-20 mx-auto px-4 pt-10 max-w-screen-sm xl:max-w-screen-md w-full flex-col xl:flex-row items-center text-center xl:text-left">
           <div className="relative w-full h-80 xl:w-64 xl:h-64">

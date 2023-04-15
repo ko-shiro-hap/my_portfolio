@@ -21,7 +21,7 @@ export const getStaticProps = async () => {
 export default function Portfolio({portfolios, categories, tags}: any) {
   return (
     <>
-      <section className="mx-auto px-4 pt-10 lg:pt-0 max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg max-h-full w-full text-primary">
+      <section className="mx-auto px-4 pt-10 md:pt-24 pb-20 max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg max-h-full w-full text-primary">
         <div className="flex md:absolute left-10 pb-10 md:pt-0 justify-center md:hidden">
           <VisualNav></VisualNav>
         </div>
