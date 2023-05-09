@@ -3,7 +3,7 @@ import VisualNav from "@/components/VisualNav";
 export default function Experience() {
   return (
     <>
-      <section className="mx-auto px-4 pt-10 pb-8 lg:pt-0 max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg max-h-full w-full text-secondary">
+      <section className="mx-auto px-4 pt-10 md:pt-24 pb-40 max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg max-h-full w-full text-secondary">
         <div className="flex md:absolute left-10 pb-10 md:pt-0 justify-center md:hidden">
           <VisualNav></VisualNav>
         </div>
@@ -35,7 +35,7 @@ export default function Experience() {
           <div className="absolute bottom-0 -left-4 h-8 w-4 border border-r-0 border-primary rounded-l-full transform translate-y-0.25"></div>
           <div className="flex gap-10 items-center">
             <div className="pl-3 text-4xl font-bold">03</div>
-            <p className=" lg:text-xl font-bold">高校1年生で何かを悟り、様々な本を読み漁る。</p>
+            <p className=" lg:text-xl font-bold">高校1年生で漠然とした焦りを感じ、様々な本を読み漁る。</p>
           </div>
         </div>
 

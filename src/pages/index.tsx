@@ -3,7 +3,7 @@ import VisualNav from "@/components/VisualNav";
 export default function Home() {
   return (
     <>
-      <section className="relative w-full">
+      <section className="relative w-full pb-32 md:pb-0">
         <div className="flex md:absolute left-10 md:left-11 pt-10 md:pt-0 justify-center">
           <VisualNav></VisualNav>
         </div>
