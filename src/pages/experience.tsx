@@ -85,7 +85,7 @@ export default function Experience() {
           <div className="absolute bottom-0 -left-4 h-8 w-4 border border-r-0 border-primary rounded-l-full transform translate-y-0.25"></div>
           <div className="flex gap-10 items-center">
             <div className="pl-3 text-4xl font-bold">08</div>
-            <p className=" lg:text-xl font-bold">実務で開発手法などを学び、新コミュニティ立ち上げに参加中。</p>
+            <p className=" lg:text-xl font-bold">2023年7月からフリーランスとして独立。</p>
           </div>
         </div>
 
