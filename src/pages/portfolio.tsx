@@ -28,7 +28,6 @@ export default function Portfolio({portfolios, categories, tags}: any) {
 
         <h2 className="text-4xl font-bold">Portfolio</h2>
         <span className="text-lg font-bold">制作物</span>
-        {/* 制作物が増えたら繰り返す */}
         {portfolios.map((portfolio: any) => {
           return (
               <div className="mx-auto px-4 pt-4 pb-16 max-w-screen-sm xl:max-w-screen-md w-full" key={portfolio.id}>
@@ -71,8 +70,6 @@ export default function Portfolio({portfolios, categories, tags}: any) {
               </div>
           )
         })}
-
-        {/* ここまで繰り返す */}
       </section>
     </>
   );

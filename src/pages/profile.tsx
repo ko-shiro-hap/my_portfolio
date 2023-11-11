@@ -19,10 +19,9 @@ export default function Profile() {
             <h2 className="text-2xl font-bold leading-none">飯野 功志朗</h2>
             <span className="text-xs">イイノ コウシロウ</span>
             <div className="lg:text-normal flex gap-3 pt-8 flex-col">
-              <p>生年月日: 2003年7月24日 19歳</p>
+              <p>生年月日: 2003年7月24日 20歳</p>
               <p>出身: 東京都八王子市</p>
-              <p>学校: 工学院大学 情報学部システム数理学科 1年</p>
-              <p>趣味: バイク、ダンス、音楽鑑賞</p>
+              <p>趣味: バイク、ダンス、古着、音楽鑑賞</p>
             </div>
           </div>
         </div>
